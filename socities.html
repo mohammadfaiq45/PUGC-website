@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notice Board PUGC</title>
+  <!-- Favicons -->
+  <link href="assets/imgs/new-uni-logo.png" rel="icon" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Nunito:wght@600;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header section -->
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <img src="assets/imgs/uni-logo.png" style="height: 40px; width: 30px; margin-right: 20px" alt="" />
+        <a class="navbar-brand mr-5 pr-3" href="#">
+          <span><i class=""></i> PUGC</span>
+          University
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">News</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./admission.html">Admission 2024</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./notice.html">Notice Board</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./download.html">Downloads</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                data-bs-toggle="dropdown">Departments</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="it.html">Information Technology</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bba.html">Business Administration</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="commerce.html">Commerce</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="english.html">English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bbf.html">Banking & Finance</a>
+                </li>
+                <li><a class="dropdown-item" href="law.html">Law</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                data-bs-toggle="dropdown">Faculties/Administrators</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="faculty.html">Faculties</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="administrators.html">Administrators</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="socities.html">Societies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                onclick="event.preventDefault(); window.location.href='index.html#about';">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="bg-dark" style="color: white; padding: 50px 0; text-align: center">
+      <h1 class="text-light" style="font-size: 48px; margin: 0">Societies</h1>
+      <p style="font-size: 18px; max-width: 800px; margin: 10px auto">
+        "Joining a university society is one of the best ways to make the most
+        of your campus experience. These student-run groups cater to a wide
+        range of interests, from academic pursuits and cultural activities to
+        hobbies and sports. Being part of a society allows you to connect with
+        like-minded individuals, gain valuable experiences, and contribute to
+        the university community. It's a great way to expand your network,
+        challenge yourself, and enjoy everything that university life has to
+        offer beyond the classroom!"
+      </p>
+    </div>
+
+    <!-- Societies Section -->
+    <section class="societies-section py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Society 1 Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/research society.png" class="card-img-top" alt="Research Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Research Society</strong></h5>
+                <p class="card-text text-secondary text-center">
+                  "Curiosity is the compass that guides innovation and discovery."
+                </p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#researchDetails"
+                  aria-expanded="false" aria-controls="researchDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="researchDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Fostering a culture of inquiry, innovation, and academic excellence.</li>
+                    <li>Engage in cutting-edge research and contribute to discoveries.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr Wasim ul Rehman</p>
+                  <p><strong>Coordinators:</strong> Dr Muzammal Khurshid, Muhammad Sarfraz Khan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Society 2 Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/Career c and p s1.jpg" class="card-img-top" alt="Career Counseling"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Career Counseling & Placement Cell</strong></h5>
+                <p class="card-text text-secondary text-center">"Your career is a journey with every step bringing you closer to your dreams."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#careerDetails"
+                  aria-expanded="false" aria-controls="careerDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="careerDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Manage collaborations, internships, and job fairs.</li>
+                    <li>Provide students with career guidance and opportunities.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr Salman Naseer</p>
+                  <p><strong>Coordinators:</strong> Ms. Nadia Yousaf</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Society 3 Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/Art socity.jpg" class="card-img-top" alt="Performing Art Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Performing Art Society</strong></h5>
+                <p class="card-text text-secondary text-center">"Let your passion take the stage and your creativity steal the show."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#performingArtDetails"
+                  aria-expanded="false" aria-controls="performingArtDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="performingArtDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Creativity takes center stage through theater, music, and dance.</li>
+                    <li>A place for passion, growth, and teamwork in the arts.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Ms Aadila Hussain</p>
+                  <p><strong>Coordinators:</strong> Ms Maham Ijaz</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row">
+          <!-- Event Management Society Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/event managment.jpg" class="card-img-top" alt="Event Management Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Event Management Society</strong></h5>
+                <p class="card-text text-secondary text-center">"Where ideas meet execution and every event becomes a masterpiece."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#eventManagementDetails"
+                  aria-expanded="false" aria-controls="eventManagementDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="eventManagementDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Organizes and manages various university events including seminars, conferences, and cultural programs.</li>
+                    <li>Develops students' organizational, leadership, and teamwork skills through event planning and execution.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Muhammad Musarrat Nawaz</p>
+                  <p><strong>Coordinators:</strong> Aamer Shahzad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Sports Society Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/sports.jpg" class="card-img-top" alt="Sports Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Sports Society</strong></h5>
+                <p class="card-text text-secondary text-center">"Fuel your competitive spirit and teamwork, both on and off the field."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#sportsDetails"
+                  aria-expanded="false" aria-controls="sportsDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="sportsDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Promotes physical fitness and sportsmanship through various sports activities and competitions.</li>
+                    <li>Encourages participation in inter-university sports events and national championships.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr Naveed Ahmed Khan Jhamat</p>
+                  <p><strong>Coordinators:</strong> Muhammad Haris Khan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Literary & Debating Society Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/debate.jpg" class="card-img-top" alt="Literary & Debating Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Literary & Debating Society</strong></h5>
+                <p class="card-text text-secondary text-center">"Where words wield power and ideas inspire change and promote logical reasoning and awareness "</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#literaryDetails"
+                  aria-expanded="false" aria-controls="literaryDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="literaryDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Promotes intellectual discourse, creative writing, and debating skills among students.</li>
+                    <li>Organizes debate competitions, literary festivals, and writing workshops.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Ms Farhana Aziz Rana</p>
+                  <p><strong>Coordinators:</strong> Hafiza Safia Shaukat, Waqas Rafiq</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- 3rd row -->
+         <div class="row">
+          <!-- Blood Donor Society Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/Library.jpg" class="card-img-top" alt="Blood Donor Society"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Blood Donor Society</strong></h5>
+                <p class="card-text text-secondary text-center">"Give blood, save lives, and be a hero in someone's story."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#bloodDonorDetails"
+                  aria-expanded="false" aria-controls="bloodDonorDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="bloodDonorDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Organizes blood donation drives to support local hospitals and patients in need.</li>
+                    <li>Spreads awareness about the importance of blood donation and how it can save lives.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr. Salman Naseer</p>
+                  <p><strong>Coordinators:</strong> Kamran Ali</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Social Media Team Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/social media.jpg" class="card-img-top" alt="Social Media Team"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Social Media Team</strong></h5>
+                <p class="card-text text-secondary text-center">"Harness the power of digital platforms to create lasting impact."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#socialMediaDetails"
+                  aria-expanded="false" aria-controls="socialMediaDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="socialMediaDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Manages the university's online presence through social media platforms.</li>
+                    <li>Creates engaging content to promote events, updates, and achievements of the university.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr Ghulam Mustafa</p>
+                  <p><strong>Coordinators:</strong> Rizwan Abbas,
+
+                    Saad Ahmad Khan,
+                    
+                    Abrar Ahmad Khan,
+                    
+                    Shazib Maqsood 
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Entrepreneurship & Incubation Club Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card" style="border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+              <img src="assets/imgs/enterprnorship.jpg" class="card-img-top" alt="Entrepreneurship & Incubation Club"
+                style="height: 200px; object-fit: cover" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-success"><strong>Entrepreneurship & Incubation Club</strong></h5>
+                <p class="card-text text-secondary text-center">"Where innovation meets opportunity and ideas turn into reality."</p>
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#entrepreneurshipDetails"
+                  aria-expanded="false" aria-controls="entrepreneurshipDetails">
+                  Read More
+                </button>
+        
+                <div class="collapse mt-3" id="entrepreneurshipDetails">
+                  <p><strong>Description</strong></p>
+                  <ul>
+                    <li>Encourages entrepreneurial thinking and supports students in starting their own ventures.</li>
+                    <li>Provides mentorship and resources through incubation programs for student-led startups.</li>
+                  </ul>
+                  <p><strong>Incharge Society:</strong> Dr Naveed Iqbal Ch.</p>
+                  <p><strong>Coordinators:</strong> Dr. Bilal Ghaffar, Ms. Sumera Asghar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- footer section -->
+  <footer class="bg-dark text-light pt-5">
+    <div class="container px-5">
+      <div class="row">
+        <!-- Address Section -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <h3 class="fw-bold">University of the Punjab</h3>
+          <p class="pt-2">Near Ali Pur Chowk Rawalpindi Bypass</p>
+          <p>Gujranwala, Pakistan</p>
+          <p><strong>Phone:</strong> +92 (0) 55 92 01 22 2</p>
+          <p><strong>Email:</strong> infocell@pu.edu.pk</p>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <h4 class="fw-bold">Menu</h4>
+          <ul class="list-unstyled">
+            <li><a href="./index.html" class="text-white">Home</a></li>
+            <li>
+              <a class="nav-link" href="#"
+                onclick="event.preventDefault(); window.location.href='index.html#about';">About</a>
+            </li>
+            <li><a href="socities.html" class="text-white">Societies</a></li>
+            <li><a href="notice.html" class="text-white">Notice Board</a></li>
+            <li><a href="./contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Section -->
+        <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
+          <h4 class="fw-bold">Our Services</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="it.html" class="text-white">Information Technology</a>
+            </li>
+            <li>
+              <a href="bba.html" class="text-white">Business Administration</a>
+            </li>
+            <li><a href="commerce.html" class="text-white">Commerce</a></li>
+            <li><a href="english.html" class="text-white">English</a></li>
+            <li>
+              <a href="bbf.html" class="text-white">Banking & Finance</a>
+            </li>
+            <li><a href="law.html" class="text-white">Law</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Links Section -->
+        <div class="col-12 col-md-6 col-lg-4 text-md-end">
+          <h4 class="fw-bold">Social Media Links</h4>
+          <div class="social-media pt-2">
+            <a href="https://www.facebook.com/groups/312791253336706" class="text-light fs-2 me-3"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/pugc_official/?hl=en" class="text-light fs-2 me-3"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/school/university-of-the-punjab/posts/?feedView=all"
+              class="text-light fs-2 me-3"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/pu_officialpk?lang=en" class="text-light fs-2"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <p class="mb-0">
+            © 2024 University of the Punjab, Gujranwala Campus. All Rights
+            Reserved
+          </p>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <p class="mb-0">
+            Designed by
+            <a href="https://www.linkedin.com/in/muhammad-faiq-analyst/" class="text-white">Muhammad Faiq</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+    integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
